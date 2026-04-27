@@ -1,0 +1,35 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{awesome-source-cv}
+
+\hypersetup{
+    pdfborder={0 0 0},      % Removes borders from all links
+    colorlinks=false,       % Does not color link text
+    linkcolor=black,        
+    urlcolor=black
+}
+
+\name{Antonella}{Garay}
+\tagline{Cybersecurity | Junior Pentester}
+\socialinfo{
+    \linkedin{antonellaabigahil-garay}\\\\
+    \mbox{\textcolor{symbolcolor}{\githubSymbol}\hspace{0.5em}\href{https://github.com/AntonellaAB}{github.com/AntonellaAB}}
+}
+
+%------------------------------------------
+\begin{document}
+
+\makecvheader
+
+%--------------------SECTIONS-----------------------------------
+\input{section_certifications}
+\input{section_experience_hm}
+\input{section_prof_experience}
+\input{section_skills}
+\input{section_langues}
+\input{section_education}
+
+\end{document}
